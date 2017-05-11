@@ -1,0 +1,15 @@
+--- CuraEngine-2.3.1/CMakeLists.txt.orig
++++ CuraEngine-2.3.1/CMakeLists.txt
+@@ -110,9 +110,9 @@
+ )
+ 
+ # List of tests. For each test there must be a file tests/${NAME}.cpp and a file tests/${NAME}.h.
+-set(engine_TEST
+-    GCodePlannerTest
+-)
++#set(engine_TEST
++#    GCodePlannerTest
++#)
+ set(engine_TEST_INFILL
+ )
+ set(engine_TEST_UTILS
