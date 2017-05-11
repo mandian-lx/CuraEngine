@@ -3,7 +3,7 @@
 
 Summary:	An engine for processing 3D models into G-code instructions for 3D printers
 Name:		%{oname}
-Version:	2.3.1
+Version:	2.5.0
 Release:	1
 Group:		Development/Other
 License:	AGPLv3+
