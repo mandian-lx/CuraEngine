@@ -63,7 +63,7 @@ sed -i -e 's|#include <clipper/clipper.hpp>|#include <polyclipping/clipper.hpp>|
 %make
 
 # documentation
-%make doc
+doxygen ..
 
 %install
 %makeinstall_std -C build
