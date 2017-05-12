@@ -44,7 +44,7 @@ It is part of the larger open source project called "Cura".
 
 # Apply all patches
 %patch0 -p1 -b .orig
-#patch1 -p1 -b .orig
+%patch1 -p1 -b .orig
 
 # bundle libs
 rm -rf libs/clipper
