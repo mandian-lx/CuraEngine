@@ -22,6 +22,7 @@ BuildRequires:	pkgconfig(polyclipping) >= 6.1.2
 BuildRequires:	pkgconfig(protobuf) > 3.0.0
 # for tests
 BuildRequires:	python
+BuildRequires:	pkgconfig(cppunit)
 
 %description
 CuraEngine is a powerful, fast and robust engine for processing 3D
