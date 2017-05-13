@@ -1,11 +1,11 @@
---- CuraEngine-2.5.0/tests/utils/StringTest.cpp.org	2017-04-18 12:18:40.000000000 +0200
-+++ CuraEngine-2.5.0/tests/utils/StringTest.cpp	2017-05-14 01:26:17.502823395 +0200
+--- CuraEngine-2.5.0/tests/utils/StringTest.cpp.org
++++ CuraEngine-2.5.0/tests/utils/StringTest.cpp
 @@ -166,7 +166,7 @@
  }
  void StringTest::writeDoubleToStreamTestLow()
  {
 -    writeDoubleToStreamAssert(0.00000001d);
-+    writeDoubleToStreamAssert((double)0.00000001);
++    writeDoubleToStreamAssert((double)(0.00000001));
  }
  
  
