@@ -11,7 +11,7 @@ URL:		https://github.com/Ultimaker/%{name}
 Source0:	https://github.com/Ultimaker/%{name}/archive/%{version}/%{name}-%{version}.tar.gz
 Patch0:		%{oname}-2.5.0-CMakeLists.patch
 Patch1:		%{oname}-2.5.0-exclude-failing-test.patch
-Patch2:		%{oname}-2.5.0-double_suffic.patch
+Patch2:		%{oname}-2.5.0-double_suffix.patch
 
 BuildRequires:	cmake
 BuildRequires:	cmake(Arcus)
