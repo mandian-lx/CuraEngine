@@ -1,5 +1,5 @@
---- CuraEngine-2.3.1/CMakeLists.txt.orig
-+++ CuraEngine-2.3.1/CMakeLists.txt
+--- CuraEngine-2.5.0/CMakeLists.txt.orig
++++ CuraEngine-2.5.0/CMakeLists.txt
 @@ -110,9 +110,9 @@
  )
  

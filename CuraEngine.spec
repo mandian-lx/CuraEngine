@@ -9,8 +9,8 @@ Group:		Development/Other
 License:	AGPLv3+
 URL:		https://github.com/Ultimaker/%{name}
 Source0:	https://github.com/Ultimaker/%{name}/archive/%{version}/%{name}-%{version}.tar.gz
-Patch0:		%{oname}-2.3.1-CMakeLists.patch
-Patch1:		%{oname}-2.3.1-exclude-failing-test.patch
+Patch0:		%{oname}-2.5.0-CMakeLists.patch
+Patch1:		%{oname}-2.5.0-exclude-failing-test.patch
 
 BuildRequires:	cmake
 BuildRequires:	cmake(Arcus)
