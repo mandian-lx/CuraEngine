@@ -11,6 +11,7 @@ URL:		https://github.com/Ultimaker/%{name}
 Source0:	https://github.com/Ultimaker/%{name}/archive/%{version}/%{name}-%{version}.tar.gz
 Patch0:		%{oname}-2.5.0-CMakeLists.patch
 Patch1:		%{oname}-2.5.0-exclude-failing-test.patch
+Patch2:		%{oname}-2.5.0-double_suffic.patch
 
 BuildRequires:	cmake
 BuildRequires:	cmake(Arcus)
@@ -45,6 +46,7 @@ It is part of the larger open source project called "Cura".
 # Apply all patches
 %patch0 -p1 -b .orig
 #patch1 -p1 -b .orig
+%patch2 -p1 -b .orig
 
 # bundle libs
 rm -rf libs/clipper
