@@ -72,5 +72,5 @@ doxygen
 %makeinstall_std -C build
 
 %check
-%make test -C build
+%make test -C build -v
 
